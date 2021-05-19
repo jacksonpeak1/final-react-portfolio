@@ -7,12 +7,15 @@ import cat1 from "../../assets/catz.jpg";
 import cat2 from "../../assets/cat2.jpg";
 import proj1 from "../../assets/project-1.png";
 import proj2 from "../../assets/project-2.png";
+import quiz1 from "../../assets/q1.png";
+import pass1 from "../../assets/p1.png";
+import work1 from "../../assets/work1.png";
 
 function Work() {
   const cardData = [
     {
       img1: workday1,
-      img2: workday2,
+      // img2: workday2,
       title: "Work Day Scheduler",
       description:
         "Here is a picture, and two links to both the repo and deployed site for my work day scheduler homework assignment!",
@@ -21,7 +24,7 @@ function Work() {
     },
     {
       img1: cat1,
-      img2: cat2, 
+      // img2: cat2,
       title: "Scratch Game",
       description:
         "Here is a picture, and a link to a game I created with Scratch!",
@@ -30,12 +33,37 @@ function Work() {
     },
     {
       img1: proj1,
-      img2: proj2,
+      // img2: proj2,
       title: "Project 1",
-      description: "Here is a picture, and two links to both the repo and deployed site or our first group project!",
+      description:
+        "Here is a picture, and two links to both the repo and deployed site or our first group project!",
       link1: "https://jacksonpeak1.github.io/Project-1/",
       link2: "https://github.com/jacksonpeak1/Project-1",
-    }
+    },
+    {
+      img1: quiz1,
+      title: "Code Quiz",
+      description:
+        " Here is a picture, and two links to both the repo and deployed site for my coding quiz homework assignment!",
+      link1: "https://jacksonpeak1.github.io/Code-quiz/",
+      link2: "https://github.com/jacksonpeak1/Code-quiz",
+    },
+    {
+      img1: pass1,
+      title: "Password Generator",
+      description:
+        "Here is a picture, and two links to both the repo and deployed site for my Password Generator homework assignment!",
+      link1: "https://jacksonpeak1.github.io/Password-Generator-/",
+      link2: "https://github.com/jacksonpeak1/Password-Generator-",
+    },
+    {
+      img1: work1,
+      title: "Employee",
+      description:
+        " Here is a picture, and two links to both the repo and deployed site for my employee directory homework assignment!",
+      link1: "https://jacksonpeak1.github.io/Code-quiz/",
+      link2: "https://github.com/jacksonpeak1/Code-quiz",
+    },
   ];
   return (
     <Container fluid>

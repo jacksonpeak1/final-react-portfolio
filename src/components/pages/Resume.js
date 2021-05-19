@@ -5,7 +5,7 @@ import img from "../../assets/Resume.png";
 
 const Img = styled.img`
   width: 2000px;
-  height: 80vh;
+  height: 60vh;
 `;
 
 function Resume() {
