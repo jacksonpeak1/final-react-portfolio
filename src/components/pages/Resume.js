@@ -1,4 +1,12 @@
 import React from "react";
+import styled from "styled-components";
+import img from "../../assets/Resume.png";
+
+
+const Img = styled.img`
+  width: 2000px;
+  height: 80vh;
+`;
 
 function Resume() {
   return (
@@ -7,11 +15,7 @@ function Resume() {
         <h2 id="resume">Resume</h2>
       </div>
       <div className="card">
-        <img
-          class="card-img-top"
-          Image src="./assets/Resume.png"
-          alt="Card image cap"
-        />
+          <Img className="card-img-top" src={img} alt="jackson5" />
         <div className="card-body card bg-info text-white">
           <h5 className="card-title">Resume</h5>
           <p className="card-text">Here is a copy of my resume!</p>

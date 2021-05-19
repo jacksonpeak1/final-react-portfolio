@@ -1,20 +1,31 @@
 import React from "react";
+import { Card, ListGroup, ListGroupItem, Container } from "react-bootstrap";
 
 function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-        varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-        Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-        imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum
-        ligula in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare
-        elit. Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-        consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
-        malesuada fames ac ante ipsum primis in faucibus.
-      </p>
-    </div>
+    <Container fluid>
+      <div>
+        <Card>
+          <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+          <Card.Body>
+            <Card.Title>Jackson Peak Full Stack Developer</Card.Title>
+            <Card.Text>
+              Hello my name is Jackson Peak. Welcome to my Portfolio I created
+              using React.
+            </Card.Text>
+          </Card.Body>
+          <ListGroup className="list-group-flush">
+            <ListGroupItem>Leave me an email</ListGroupItem>
+            <ListGroupItem>Connect with me on github</ListGroupItem>
+            <ListGroupItem>Take a copy of my resume</ListGroupItem>
+          </ListGroup>
+          <Card.Body>
+            <Card.Link href="#">Card Link</Card.Link>
+            <Card.Link href="#">Another Link</Card.Link>
+          </Card.Body>
+        </Card>
+      </div>
+    </Container>
   );
 }
 
