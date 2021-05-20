@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/final-react-portfolio/static/css/main.c68a9b15.chunk.css",
+    "main.js": "/final-react-portfolio/static/js/main.35dcf58e.chunk.js",
+    "main.js.map": "/final-react-portfolio/static/js/main.35dcf58e.chunk.js.map",
+    "runtime-main.js": "/final-react-portfolio/static/js/runtime-main.782b9ebf.js",
+    "runtime-main.js.map": "/final-react-portfolio/static/js/runtime-main.782b9ebf.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/final-react-portfolio/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.d289ac53.chunk.js": "/final-react-portfolio/static/js/2.d289ac53.chunk.js",
+    "static/js/2.d289ac53.chunk.js.map": "/final-react-portfolio/static/js/2.d289ac53.chunk.js.map",
+    "static/js/3.133a4e39.chunk.js": "/final-react-portfolio/static/js/3.133a4e39.chunk.js",
+    "static/js/3.133a4e39.chunk.js.map": "/final-react-portfolio/static/js/3.133a4e39.chunk.js.map",
+    "index.html": "/final-react-portfolio/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/final-react-portfolio/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.c68a9b15.chunk.css.map": "/final-react-portfolio/static/css/main.c68a9b15.chunk.css.map",
+    "static/js/2.d289ac53.chunk.js.LICENSE.txt": "/final-react-portfolio/static/js/2.d289ac53.chunk.js.LICENSE.txt",
+    "static/media/GH.9913e4d8.png": "/final-react-portfolio/static/media/GH.9913e4d8.png",
+    "static/media/IMG_8268.35b7905d.jpg": "/final-react-portfolio/static/media/IMG_8268.35b7905d.jpg",
+    "static/media/LINK.683f0354.png": "/final-react-portfolio/static/media/LINK.683f0354.png",
+    "static/media/Resume.7224a732.png": "/final-react-portfolio/static/media/Resume.7224a732.png",
+    "static/media/cat2.58891bf7.jpg": "/final-react-portfolio/static/media/cat2.58891bf7.jpg",
+    "static/media/catz.e43441d8.jpg": "/final-react-portfolio/static/media/catz.e43441d8.jpg",
+    "static/media/code.b4c4e868.jpg": "/final-react-portfolio/static/media/code.b4c4e868.jpg",
+    "static/media/county.da286886.jpg": "/final-react-portfolio/static/media/county.da286886.jpg",
+    "static/media/gt.8c2e9e45.jpg": "/final-react-portfolio/static/media/gt.8c2e9e45.jpg",
+    "static/media/law.7f2b37c4.jpg": "/final-react-portfolio/static/media/law.7f2b37c4.jpg",
+    "static/media/p1.5b3eb4a8.png": "/final-react-portfolio/static/media/p1.5b3eb4a8.png",
+    "static/media/project-1.a0aaf517.png": "/final-react-portfolio/static/media/project-1.a0aaf517.png",
+    "static/media/project-2.c77cd1f6.png": "/final-react-portfolio/static/media/project-2.c77cd1f6.png",
+    "static/media/q1.9877fdad.png": "/final-react-portfolio/static/media/q1.9877fdad.png",
+    "static/media/welcome.e562942a.jpg": "/final-react-portfolio/static/media/welcome.e562942a.jpg",
+    "static/media/work1.c9aa0c85.png": "/final-react-portfolio/static/media/work1.c9aa0c85.png",
+    "static/media/workday1.744a7632.png": "/final-react-portfolio/static/media/workday1.744a7632.png",
+    "static/media/workday2.9461aa3d.png": "/final-react-portfolio/static/media/workday2.9461aa3d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.782b9ebf.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.d289ac53.chunk.js",
+    "static/css/main.c68a9b15.chunk.css",
+    "static/js/main.35dcf58e.chunk.js"
+  ]
+}
