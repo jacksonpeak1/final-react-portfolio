@@ -17,7 +17,7 @@ function Home() {
   return (
     <Container fluid>
       <div className="col d-flex flex-wrap container">
-        <Card>
+        <Card className="bg-secondary">
           <div>
             <img
               class="card-img-top"
@@ -28,8 +28,10 @@ function Home() {
             />
           </div>
           <Card.Body>
-            <Card.Title>Jackson Peak Full Stack Developer</Card.Title>
-            <Card.Text>
+            <Card.Title className="text-center text-light">
+              Jackson Peak Full Stack Developer
+            </Card.Title>
+            <Card.Text className="text-center text-light">
               Hello my name is Jackson Peak. Im so glad you took the time to
               check out my online portfolio! Learn more about me by checking out
               my about me section. Also check out some of my coding projects
@@ -37,10 +39,18 @@ function Home() {
             </Card.Text>
           </Card.Body>
           <ListGroup className="list-group-flush">
-            <ListGroupItem>Check out the about me  section to learn more about me!</ListGroupItem>
-            <ListGroupItem>Check out the work section to view some of my projects!</ListGroupItem>
-            <ListGroupItem>Check out my resume to view my experiences!</ListGroupItem>
-            <ListGroupItem>Check out the contact me section to contact me!</ListGroupItem>
+            <ListGroupItem className="text-primary">
+              Check out the about me section to learn more about me!
+            </ListGroupItem>
+            <ListGroupItem className="text-primary">
+              Check out the work section to view some of my projects!
+            </ListGroupItem>
+            <ListGroupItem className="text-primary">
+              Check out my resume to view my experiences!
+            </ListGroupItem>
+            <ListGroupItem className="text-primary">
+              Check out the contact me section to contact me!
+            </ListGroupItem>
           </ListGroup>
           <Card.Body>
             {/* <div>
